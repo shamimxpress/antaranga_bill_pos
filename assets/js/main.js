@@ -19,7 +19,7 @@ fetch(url).then(res=>res.blob())
 		rows.forEach(function(row){
 			// console.log(row);
 			$user[row['id']]=row;
-			var opt=`<option value="${row['id']}">${row['Name']}</option>`;
+			var opt=`<option value="${row['id']}">${row['name']}</option>`;
 			// console.log(opt);
 			opt_html+=opt;
 			
