@@ -1,0 +1,10 @@
+@page {
+    size: 5.2cm 5.2cm;
+}
+html,body{
+	width: 5.2cm;
+	height: 5.2cm;
+} 
+.search-box{
+	display:none;
+}
