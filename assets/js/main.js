@@ -26,8 +26,8 @@ fetch(url).then(res=>res.blob())
 		});
 		
 		var $user_list=$('#user_list');
-		$user_list.html(opt_html);
-		// $user_list.append(opt_html);
+		$user_list.html('');
+		$user_list.append(opt_html);
 });
 var $user=$('#user');
 var $search=$('#search-btn');
