@@ -8,3 +8,6 @@ html,body{
 .search-box{
 	display:none;
 }
+.card-footer{
+	display:none;
+}
