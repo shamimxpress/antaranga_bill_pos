@@ -1,0 +1,21 @@
+@page {
+    size: 5.5cm 6.5cm;
+	/* margin: 25mm 25mm 25mm 25mm; */
+	margin: 0 0 0 0;
+	/* size: A4; */
+    margin:0;
+}
+html,body{
+	width: 5.5cm;
+	height: 5.2cm;
+	font-family: 'Courier New', monospace;
+	font-size:10px;
+}
+.no-print{
+	display:none;
+}
+
+.print-body{
+	border:none;
+	padding:0px;
+}
