@@ -15,7 +15,8 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
 	<!-- MDB -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.css">
-	<link rel="stylesheet" href="assets/css/main.css" media="print">
+	<link rel="stylesheet" href="assets/css/main.css">
+	<link rel="stylesheet" href="assets/css/print.css" media="print">
 
 	<!-- Bootstrap -->
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" defer></script>
@@ -23,36 +24,33 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.js" defer></script>
 	<!-- jquery -->
 	<script src="https://code.jquery.com/jquery-3.6.3.slim.min.js" defer></script>
-	<!-- read-excel-file -->
-	<script src="https://unpkg.com/read-excel-file@5.x/bundle/read-excel-file.min.js" defer></script>
 	<script src="assets/js/main.js" defer></script>
 </head>
 <body>
-	<div class="container-fluid">
-		<div class="row vh-100 justify-content-center">
-			<div class="col-lg-4 col-md-6 col-12">
-				<div class="card mt-4 mb-4">
-					<div class="card-header">
-						<h5>Antaranga Dot Com Ltd.</h5>
-					</div>
-					<div class="card-body">
-						<div class="mb-3 row search-box">
-							<div class="form-outline">
-								<input type="text" id="user" list="user_list" class="form-control" />
-								<datalist id="user_list"></datalist>
-								<label class="form-label" for="user">User</label>
-							</div>
-							<button type="button" id="search-btn" class="btn btn-secondary mt-3"><i class="fas fa-search"></i></i><span class="ms-2">Search</span></button>
-						</div>
-						<div class="mb-3 row print-body"></div>
-					</div>
-					
-					<div class="card-footer">
-						<button type="button" id="print-btn" class="btn btn-secondary w-100 mt-3"><i class="fas fa-search"></i><span class="ms-2">Print</span></button>
-					</div>
+	<div class="row justify-content-center">
+		<div class="col-lg-4 col-md-6 col-12">
+			<h5 class="text-center mt-3 mb-1">Everybit IT Solution</h5>
+			<div class="text-center mb-3">Sonir Akhra<br>51/1 Hazi Achim Uddin Road</div>
+			<div class="mb-3 search-box no-print">
+				<div class="form-outline">
+					<input type="text" id="user" list="user_list" class="form-control" />
+					<datalist id="user_list"></datalist>
+					<label class="form-label" for="user">User</label>
 				</div>
+				<button type="button" id="search-btn" class="btn btn-secondary w-100 mt-3"><i class="fas fa-search"></i></i><span class="ms-2">Search</span></button>
 			</div>
+			<!-- <table class="w-100">
+				<tbody>
+				  <tr><th>Customer ID</th><th>:</th><td>Mark</td></tr>
+				  <tr><th>Name</th><th>:</th><td>Jacob</td></tr>
+				  <tr><th>Package</th><th>:</th><td>@twitter</td></tr>
+				  <tr><th>Ammount</th><th>:</th><td>@twitter</td></tr>
+				</tbody>
+			</table> -->
+			<div class="print-body">No Data</div>
+			<div class="text-end">For any qurry please call - 01997233633</div>
+			<button type="button" id="print-btn" class="btn btn-secondary w-100 mt-3 no-print"><i class="fas fa-search"></i><span class="ms-2">Print</span></button>
 		</div>
-	</div>  
+	</div>
 </body>
 </html>
