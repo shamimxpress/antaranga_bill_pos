@@ -1,13 +1,5 @@
-@page {
-    size: 5.2cm 5.2cm;
-}
-html,body{
-	width: 5.2cm;
-	height: 5.2cm;
-} 
-.search-box{
-	display:none;
-}
-.card-footer{
-	display:none;
+.print-body{
+	border:dashed 1px #545454;
+	border-radius:5px;
+	padding:5px 10px;
 }
